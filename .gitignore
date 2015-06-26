@@ -1,0 +1,4 @@
+config.js
+node_modules
+naturvinduet.log.*
+.DS_Store

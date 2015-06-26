@@ -1,0 +1,20 @@
+{
+  "name": "node_naturvinduet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.2.7",
+    "firebase-queue": "^1.2.1",
+    "forever": "^0.14.1",
+    "forever-monitor": "^1.5.2",
+    "promise": "^7.0.3",
+    "request": "^2.55.0",
+    "winston": "^1.0.0"
+  }
+}
