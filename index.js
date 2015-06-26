@@ -79,18 +79,14 @@
                     ref.child('queue/tasks').child(id).child('_state').set(s);
                 }, 60000);
             });
-            setTimeout(function () {
-                ref.child('queue/tasks').push({
-                    obs: '-JrC3wvbkWgWI_6LMoyE'
-                });
-            }, 1000);
+            
         }
     });
     /*Get access token
-    https://developers.facebook.com/tools/explorer/451552425003279/?method=GET&path=me%3Ffields%3Did%2Cname
+    https://developers.facebook.com/tools/explorer
     Vælg application naturvinduet og access token naturvinduet
     Vælg request publish_pages
-    https://developers.facebook.com/tools/debug/accesstoken?q=CAAGarz3jyQ8BAEpKZAHZC5XZCqJeEDA8n8suPWhPZCRM1fZBuzPtDQLOdavLxx9NozhVZBIlsfwquGNgIOEGJntEVs0e4vUJ0RkeqU3re7U2QC1tNRbPOO3cpKWwTYq3kiMoXqni5mCa6WvptZCY0GtwMykLHBdspgJhy0buCQYp2ytPEJgwzW9dQ11MFBFGOQZD&version=v2.3
+    https://developers.facebook.com/tools/debug/accesstoken
     vælg extend access token
     vælg debug
     */
